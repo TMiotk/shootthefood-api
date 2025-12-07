@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Bolognese",
+    "image": "/img/spaghetti.jpg",
+    "category": "Pasta"
+  },
+  {
+    "id": 2,
+    "title": "Chicken Caesar Salad",
+    "image": "/img/salad.jpg",
+    "category": "Salads"
+  }
+]

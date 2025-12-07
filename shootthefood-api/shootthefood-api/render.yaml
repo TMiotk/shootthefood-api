@@ -1,0 +1,12 @@
+# Exported from Render on 2025-12-07T14:02:01Z
+version: "1"
+services:
+- type: web
+  name: shootthefood-api
+  runtime: node
+  repo: https://github.com/TMiotk/shootthefood-api
+  plan: free
+  region: frankfurt
+  buildCommand: ./mvnw -B -DskipTests package
+  startCommand: java -jar target /*.jar
+  autoDeployTrigger: commit
